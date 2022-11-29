@@ -1,0 +1,47 @@
+
+.orderImg{
+    box-sizing: border-box;
+    /* padding: 1rem; */
+    width: 20rem;
+    object-fit: contain ;
+}
+
+.orderName{
+    display: inline;
+    font-size: 1.1rem;
+}
+
+.finalPrice{
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.orderNow{
+    background-color: #FF1E00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.orderNow:hover{
+    background-color: #59CE8F;
+}
+
+.orderNow >p{
+    display: inline;
+    margin: 0 1rem;
+}
+
+p:first-child{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.names{
+    margin-left: 1rem;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}

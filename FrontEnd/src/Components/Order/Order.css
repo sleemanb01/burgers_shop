@@ -1,0 +1,35 @@
+
+.orderContainer{
+    display: inline-flex;
+    flex-direction: column;
+    border: 2px solid #59CE8F;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.trayContainer{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  .tray-logo{
+    height: 3rem;
+    text-align: center;
+  }
+  
+  .trayNumber{
+    color: #000;
+    display: inline;
+    position: relative;
+    bottom:1rem;
+    right: 0.5rem;
+    font-size: 1.1rem;
+  }
+
+.trayNumber{
+    color: #000;
+    font-weight: 700;
+    background-color: #eee;
+    border-radius: 5px;
+}

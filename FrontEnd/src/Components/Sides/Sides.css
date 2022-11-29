@@ -1,0 +1,35 @@
+.Sides{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Sides p{
+    text-align: center;
+    font-size: 10rem;
+}
+
+.selectContainer{
+    display: inline-flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.selectContainer h2{
+    margin-right: 1rem;
+    display: inline-flex;
+    float: left;
+    
+}
+
+.selectContainer input{
+    float: right;
+    height: 1.5rem;
+}
+
+.imagesContainer{
+    margin: 1rem;
+}
+
+.sideImg{
+    max-width: 8rem;
+    max-height: 8rem;
+}

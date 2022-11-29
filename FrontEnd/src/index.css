@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 62.5%;
+  box-sizing: border-box;
+  box-sizing: inherit;
+  color: #E8F9FD;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/**************************** CLASSES **************/
+
+/* 
+#151501
+#3c3a05
+#605c00
+#9c9723
+#e1d816
+*/
+
+/**************************** ALLBUTFOOTER **************/
+.App {
+  background-color: #3c3a05;
+}
+
+.allButFooter{
+  min-height: calc(100vh - 2rem);
+}
+
+/**************************** SCALABLE **************/
+.scale{
+  
+  transition: all 0.2s ease;
+}
+
+.scale:hover{
+  
+  transform: scale(1.2);
+}
+
+.navbar .scale:hover{
+  color: #E8F9FD;
+}
+
+.scale:active{
+  transform: scale(0.8);
+}
+
+/* *************** CARD ********************* */
+.card{
+  width: 20vw;
+  margin: 1rem;
+  text-transform: capitalize;
+  border: 1px solid #e1d816;
+  border-radius: 5px;
+}
+
+.cardImage{
+  width: 10vw;
+  height: 7rem;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .cardImage{
+      width: 100%;
+  }
+}
+
+.cardTitle{
+  font-weight: 700;
+}
+
+.active{
+  border: 5px solid #e1d816;
+  transform: scale(1.1);
+}

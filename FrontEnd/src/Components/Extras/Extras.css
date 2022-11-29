@@ -1,0 +1,22 @@
+.extras{
+    display: inline-flex;
+    flex-wrap: wrap;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.extras p{
+    text-align: center;
+}
+
+.extras h2{
+    margin-right: 1rem;
+    display: inline-flex;
+    float: left;
+    text-transform: capitalize;
+}
+
+.extras input{
+    float: right;
+    height: 1.5rem;
+}

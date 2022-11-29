@@ -1,0 +1,73 @@
+.container{
+    background-color: gainsboro;
+    display: inline-block;
+    padding: 1rem;
+    width: 40rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.7;
+    box-sizing: border-box;
+    color: #000;
+}
+input{
+    box-sizing: border-box;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+    border-color: transparent;
+    box-shadow: 0 0 3px #808080;
+    width: 100%;
+}
+
+label{
+    display:block;
+    margin: 1rem 0;
+    font-weight: bold;
+}
+
+select{
+    width: 100%;
+    background-color: inherit;
+}
+
+[type="button"]{
+    margin: 1rem;
+    width: 95%;
+}
+
+[type="button"]:hover{
+    transform: scale(1.2);
+}
+
+[type="button"]:active{
+    transform: scale(0.8);
+}
+
+
+/* ********************** CLASSES ********************** */
+
+.halfBlock{
+    width: calc((100% / 2) - 2rem);
+    margin-right: 1rem;
+}
+
+.threeBlocks{
+    width: calc((100% / 3) - 3rem);
+    margin-right: 1rem;
+}
+
+.email::-webkit-input-placeholder {
+    text-align: right;
+}
+
+.block{
+    width: 100%;
+}
+
+.instructions{
+    color: #808080;
+}
+
+.invalidInput{
+    background-color: red;
+}

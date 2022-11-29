@@ -1,0 +1,24 @@
+.BranchCard{
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-block;
+    background-color: gray;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.title{
+    font-weight: 700;
+}
+
+.address{
+    text-transform: capitalize;
+}
+
+.phone{
+    letter-spacing: 0.1rem;
+}
+
+.openingHrs{
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  color: #151501;
+  background-color: #e1d816;
+  justify-content: space-between;
+  border: 1px solid #000;
+}
+
+.navbar .linksDiv {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .linksDiv .navLink {
+  font-size: 1.2rem;
+  margin-right: 2rem;
+}
+
+.logo{
+  height: 4rem;
+  padding: 0.2rem;
+  margin: 0 1rem;
+}
+
+.signUp{
+  border: 2px solid #151501;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.rightSide{
+  display: flex;
+  align-items: center;
+}

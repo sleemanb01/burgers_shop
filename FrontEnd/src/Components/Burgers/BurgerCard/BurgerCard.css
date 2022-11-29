@@ -1,0 +1,26 @@
+.card{
+    display: inline-flex;
+    align-items: center;
+    background-color: #151501;
+    box-sizing: border-box;
+}
+
+.discriptionContainer{
+    margin-left: 0.5rem;
+    font-size: 1.00rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        flex-direction: column;
+    }
+    
+  }
+
+  /* 
+#151501
+#3c3a05
+#605c00
+#9c9723
+#e1d816
+*/

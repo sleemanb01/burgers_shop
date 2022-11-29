@@ -1,0 +1,12 @@
+.signIn{
+    background-color: rgb(202, 95, 95);
+    color: #EEE;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+}
+.SignIn > div{
+    margin: 1rem;
+    width: 10rem;
+}

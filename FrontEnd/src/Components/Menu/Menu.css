@@ -1,0 +1,21 @@
+.Menu{
+    display: inline-flex;
+    flex-direction: row;
+    
+}
+
+.menuContainer{
+    display: inline-flex;
+
+}
+
+.outletContainer{
+    max-width: calc(40vw);
+}
+
+@media only screen and (max-width: 600px) {
+    .Menu{
+        flex-direction: column;
+    }
+  }
+  

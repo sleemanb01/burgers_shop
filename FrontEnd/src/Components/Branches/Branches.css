@@ -1,0 +1,15 @@
+.Branch{
+    text-align: left;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #000;
+}
+
+.branchContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.branch, h1{
+    text-align: center;
+}
